@@ -1,0 +1,32 @@
+#content{
+	min-height: 400px;
+}
+
+#login{
+	background: rgb(214, 214, 214);
+	padding: 6px 12px;
+	color: blue;
+}
+
+#login a{
+	float: right;
+	color: blue;
+}
+
+#mMenu{
+	clear: both;
+	text-align: center;
+}
+
+#mMenu a{
+	display: inline-block;
+	margin: 10px 3px;
+	padding: 10px;
+	border-radius: 3px;
+	background: green;
+	color: white;
+}
+
+#mMenu a.selected{
+	background: lawngreen;
+}
